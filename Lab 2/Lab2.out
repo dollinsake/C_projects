@@ -1,0 +1,221 @@
+Script started on Tue Oct 10 16:23:27 2017
+[?1034hbash-3.2$ exitcd Desktop[2PLab 2ls[Kcd Lab 2Desktop[6Pexit[Kexit[Kgcc lab_2.c 
+[1mlab_2.c:24:1: [0m[0;1;35mwarning: [0m[1mcontrol reaches end of non-void function [-Wreturn-type][0m
+}
+[0;1;32m^
+[0m[1mlab_2.c:127:1: [0m[0;1;35mwarning: [0m[1mreturn type of 'main' is not 'int' [-Wmain-return-type][0m
+void main(void){
+[0;1;32m^
+[0m[1mlab_2.c:127:1: [0m[0;1;30mnote: [0mchange return type to 'int'[0m
+void main(void){
+[0;1;32m^~~~
+[0m[0;32mint
+[0m2 warnings generated.
+bash-3.2$ gcc lab_2.c [C[C[C[C[C[C[C[C[C[C[8Pexitcd Desktop[2PLab 2Desktop[6Pexitgcc lab_2.c [C[C[C[C[C[C[C[C[C[C[K./a.out
+
+MENU
+1. Print all records
+2. Print number of records
+3. Print size of database
+4. Add record
+5. Delete record
+6. Print number of accesses to database
+7. Exit
+Select a menu option: 1
+
+Record 1:
+Name: Yeezy
+ID Number: 0
+
+Record 2:
+Name: Kid Cudi
+ID Number: 666
+
+Record 3:
+Name: TravisScott
+ID Number: 8675309
+
+Record 4:
+Name: Drake
+ID Number: 8
+
+Record 5:
+Name: Weeknd?
+ID Number: -1
+
+Record 6:
+Name: Future_hendricks
+ID Number: 44
+
+
+MENU
+1. Print all records
+2. Print number of records
+3. Print size of database
+4. Add record
+5. Delete record
+6. Print number of accesses to database
+7. Exit
+Select a menu option: 2
+
+Number of records: 6
+
+MENU
+1. Print all records
+2. Print number of records
+3. Print size of database
+4. Add record
+5. Delete record
+6. Print number of accesses to database
+7. Exit
+Select a menu option: 3
+
+Size of database: 624
+
+MENU
+1. Print all records
+2. Print number of records
+3. Print size of database
+4. Add record
+5. Delete record
+6. Print number of accesses to database
+7. Exit
+Select a menu option: 4
+
+Enter the person's name (< 100 characters): Rihanna
+Enter Rihanna's ID (< 100 characters): 2345
+
+MENU
+1. Print all records
+2. Print number of records
+3. Print size of database
+4. Add record
+5. Delete record
+6. Print number of accesses to database
+7. Exit
+Select a menu option: 1
+
+Record 1:
+Name: Yeezy
+ID Number: 0
+
+Record 2:
+Name: Kid Cudi
+ID Number: 666
+
+Record 3:
+Name: TravisScott
+ID Number: 8675309
+
+Record 4:
+Name: Drake
+ID Number: 8
+
+Record 5:
+Name: Weeknd?
+ID Number: -1
+
+Record 6:
+Name: Future_hendricks
+ID Number: 44
+
+Record 7:
+Name: Rihanna
+ID Number: 2345
+
+
+MENU
+1. Print all records
+2. Print number of records
+3. Print size of database
+4. Add record
+5. Delete record
+6. Print number of accesses to database
+7. Exit
+Select a menu option: 4
+
+Enter the person's name (< 100 characters): Rihanna
+Enter Rihanna's ID (< 100 characters): 23343
+
+MENU
+1. Print all records
+2. Print number of records
+3. Print size of database
+4. Add record
+5. Delete record
+6. Print number of accesses to database
+7. Exit
+Select a menu option: 5
+
+
+Record Deleted!
+
+
+MENU
+1. Print all records
+2. Print number of records
+3. Print size of database
+4. Add record
+5. Delete record
+6. Print number of accesses to database
+7. Exit
+Select a menu option: 1
+
+Record 1:
+Name: Yeezy
+ID Number: 0
+
+Record 2:
+Name: Kid Cudi
+ID Number: 666
+
+Record 3:
+Name: TravisScott
+ID Number: 8675309
+
+Record 4:
+Name: Drake
+ID Number: 8
+
+Record 5:
+Name: Weeknd?
+ID Number: -1
+
+Record 6:
+Name: Future_hendricks
+ID Number: 44
+
+Record 7:
+Name: Rihanna
+ID Number: 2345
+
+
+MENU
+1. Print all records
+2. Print number of records
+3. Print size of database
+4. Add record
+5. Delete record
+6. Print number of accesses to database
+7. Exit
+Select a menu option: 6
+
+Number of accesses: 3
+
+MENU
+1. Print all records
+2. Print number of records
+3. Print size of database
+4. Add record
+5. Delete record
+6. Print number of accesses to database
+7. Exit
+Select a menu option: 7
+
+
+Goodbye!
+
+bash-3.2$ exit
+exit
+
+Script done on Tue Oct 10 16:24:50 2017
